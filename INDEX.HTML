@@ -1,38 +1,56 @@
 <!DOCTYPE html>
-<html lang="en" dir="LTR">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coderz Open Day</title>
+    <meta charset="utf-8">
+    <title>Coderz Open Day</title>
 </head>
 
-<h1>coderz Open Day</h1>
-<table>
-<caption>Visitors by room and time</caption>
-<thead>
-<tr>
-<th scope="col">Room</th>
-<th scope="col">Time</th>
-<td>Visitors</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th scope="rowgroup" rowspan="1">Lab A</th>
-<td>Morning</td><td>12</td>
-</tr>
-<tr><td>Evening</td><td>8</td></tr>
-</tbody>
-<tbody>
-<tr>
-<th scope="row">Lab B</th>
-<td>Morning</td><td>5</td>
-</tr>
-</tbody>
-<tfoot>
-<tr><th scope="row">Total visitors</th><td>23</td></tr>
-</tfoot>
-</table>
+<body>
+
+    <h1>Coderz Open Day</h1>
+
+    <table border="1">
+
+        <caption>Visitors by room and time</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Room</th>
+                <th scope="col">Time</th>
+                <th scope="col">Visitors</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="2">Lab A</th>
+                <td>Morning</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>Evening</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <th scope="row">Lab B</th>
+                <td>Morning</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Total visitors</th>
+                <td>25</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
 </body>
 </html>
